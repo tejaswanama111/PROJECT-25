@@ -22,7 +22,7 @@ class PaperObject {
            rotate(angle);
            imageMode(CENTER);
            image(this.image, 0, 0);
-           ellipse(0,0,this.radius);
+         
            pop();
         }
 }
