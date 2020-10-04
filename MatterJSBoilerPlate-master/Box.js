@@ -21,7 +21,6 @@ class Box {
         fill(255);
         imageMode(CENTER);
         image(this.image, 600, 560, 200, this.height);
-        rect(pos.x, pos.y, this.width, this.height);
        
     }
     
